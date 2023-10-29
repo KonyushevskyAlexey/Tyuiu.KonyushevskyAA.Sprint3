@@ -9,16 +9,19 @@ namespace Tyuiu.KonyushevskyAA.Sprint3.Task2.V28.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetSumSeries()
+        public void ValidGetMultiplySeries()
         {
             DataService ds = new DataService();
 
-            double value = 1.8;
+            
             int startValue = 1;
             int stopValue = 4;
+
+            double res =  ds.GetMultiplySeries(startValue, stopValue);
+
             double wait = 0.023;
 
-            Assert.AreEqual(wait, ds.GetSumSeries(value, startValue, stopValue));
+            Assert.AreEqual(wait, res);
         }
     }
 }

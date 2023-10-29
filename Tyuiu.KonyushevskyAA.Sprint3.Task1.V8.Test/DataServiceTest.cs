@@ -17,7 +17,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint3.Task1.V8.Test
             int startValue = 1;
             int stopValue = 7;
 
-            double res = ds.GetMultiplySeries(value, startValue, stopValue);
+            double res = ds.GetSumSeries(value, startValue, stopValue);
 
             double wait = res;
 

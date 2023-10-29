@@ -10,7 +10,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint3.Task1.V8.Lib
 {
     public class DataService : ISprint3Task1V8
     {
-        public double GetMultiplySeries(double value, int startValue, int stopValue)
+        public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double multSeries = 1;
          
@@ -22,5 +22,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint3.Task1.V8.Lib
             return Math.Round((multSeries),3);
 
         }
+
+        
     }
 }

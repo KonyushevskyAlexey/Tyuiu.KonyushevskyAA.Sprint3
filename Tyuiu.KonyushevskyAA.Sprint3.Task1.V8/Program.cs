@@ -43,7 +43,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint3.Task1.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));
+            Console.WriteLine("Произведение ряда = " + ds.GetSumSeries(value, startValue, stopValue));
 
             Console.ReadKey();
 

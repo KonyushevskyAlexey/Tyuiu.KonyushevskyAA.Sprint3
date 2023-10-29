@@ -42,7 +42,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint3.Task2.V28
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double result = ds.GetSumSeries(value, startValue, stopValue);
+            double result = ds.GetMultiplySeries(startValue, stopValue);
             Console.WriteLine("Произведение ряда = " + result);
             Console.ReadKey();
         }
